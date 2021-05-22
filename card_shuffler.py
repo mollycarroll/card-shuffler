@@ -6,9 +6,6 @@ suits = ['Hearts', 'Diamonds', 'Spades', 'Clubs']
 
 deck = list(itertools.product(values, suits))
 
-# for value, suit in deck:
-#     print('The %s of %s' % (value, suit))
-
 def shuffle_deck(deck):
     count = 0
 
